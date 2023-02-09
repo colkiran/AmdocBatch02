@@ -1,0 +1,244 @@
+Python 3.11.x
+
+Python 3.9.x
+
+
+2.x => 3.x
+----------
+
+2.x 
+---
+print "Hello"
+
+
+3.x
+---
+print("Hello")
+
+
+Flavours of Python
+------------------
+1. CPython - Currently using
+
+2. Jython	-	Python code to Java
+
+3. Iron Python - Dotnet Libraries
+
+
+Editors
+-------
+1. Pycharm CE Open Source
+2. VS code CE
+3. Sublime text
+4. Eclipse
+5. Jupyter Notebook
+
+
+Python
+------
+1. SDK - 
+
+2. Shell - interactive environment
+
+3. IDLE - Editor
+
+
+Scripting tool
+--------------
+1. Iterpreted
+
+2. Data types - loosely coupled 
+
+Implicit Declaration
+	
+i = 100
+
+j = "hello"
+
+i = "world"
+
+
+Two Operators in python which are overloaded
+
+1. + 	=> addition and Concatenation
+
+2. * => Multiplication and to print a string n number of times
+
+
+lhs + rhs => datatypes should be similar
+
+
+2.x
+---
+Numbers in python
+
+a. integers
+b. long				depricated in 3.x
+c. float
+d. complex numbers
+
+
+23398930582412301239104923L
+
+os module
+---------
+from os import system
+
+
+from imp import reload
+
+
+imp 		- module
+reload 	- function
+
+
+Coding Rules
+------------
+
+#! => Shebang - specify the path python executable
+
+
+indentation
+-----------
+
+def fun():
+
+	print("hello World")
+	print("function code")
+
+	for i in range(1, 20):
+		
+		if i % 2 == 0:
+			print(i)
+
+
+print("main module")
+
+Comments
+========
+
+# - is used for commenting and we can comment a single line
+
+
+Strings 
+-------
+single line
+-----------
+"  " or '  '
+
+print("hello world")
+
+
+multiple line string
+--------------------
+"""    """  or '''   '''
+
+st = """
+			this is the first line
+			this is the second line
+			this is the third line
+		"""
+print(st)
+
+function document
+
+"this is a string"
+
+
+def fun():
+
+	"this is a function document"
+	
+	# this is a comment
+
+	print("hello")
+
+
+fun()
+
+print(fun.__doc__)
+
+
+Language Features
+------------------
+1. variables
+2. primitive datatypes
+3.	Operators 
+4.	loops and control structures
+
+bitwise operators
+------------------
+
+or
+--
+5 = 101
+3 = 011
+	 ----  
+	 111		=> 7
+
+
+and
+---
+5 = 101
+3 = 011
+    ---
+	  001		=>		1
+
+
+xor
+---
+5 = 101
+3 = 011
+	 ----
+	  110		=>		6
+ 
+
+<<
+--
+5 = 101 => 1010 => 
+
+8 = 1000 => 10000 => 16
+
+5 = 101 => 10100	=> 20
+
+
+>>
+--
+5 = 101 => 10
+
+Loops and control structures
+----------------------------
+
+control structures 
+------------------
+if condition
+
+loops
+-----
+for loop 
+while loop
+
+
+
+for loop is similar to foreach in other tech
+
+for each relies on a collection
+
+range(1, 10) => 1..9
+
+range(10) => 0..9
+
+range(1, 11) = 1..10
+
+range(1, 11, 2) => 1, 3, 5, 7, 9
+
+range(10, 0, -1) => 10, 9, 8, ...1
+
+
+print(data, sep=, end="\n")
+
+
+
+
+
+

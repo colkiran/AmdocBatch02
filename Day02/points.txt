@@ -1,0 +1,54 @@
+strings
+-------
+
+strings are immutable
+---------------------
+
+
+" " or  ' ' - single line string
+
+"""  """ or  '''   '''  - multiline string
+
+st = "hello world"
+
+
+Data Structures
+----------------
+1. list
+2. dictionary
+3. tuple
+4. set
+
+
+List
+----
+list is similar to arrays
+
+
+what is an array
+----------------
+1. memory allocation is contigious
+2. arrays are a collection of homogenous data
+
+
+Lists
+-----
+1. lists are collection of hetrogenous data
+2. memory allocation of lists are not contigious
+3. are ordered collection
+4. lists are subscriptable - indexed
+5. lists are mutable
+6. lists are enclosed in [ ]
+
+
+
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+
+
+
+
+
+
+
+ 
