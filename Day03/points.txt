@@ -1,0 +1,81 @@
+Dictionary
+-----------
+dictionaries are also called as associative arrays
+
+lists are indexed
+-----------------
+
+  0    1    2    3    4
+['a', 'b', 'c', 'd', 'e']
+
+
+{0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e'}
+
+
+keys = 0, 1, 2, 3, 4		=> user defined 
+
+values = 'a', 'b', 'c', 'd', 'e'
+
+
+1. keys are always unique
+
+2. dictionaries are unordered collection
+
+3. they are mutable
+
+4. they are enclosed in  {k1: v1, k2: v2, k3: v3.....}
+
+
+functions to manipulate the dictionary
+
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+Tuple
+-----
+1. tuple is a immutable list
+
+2. tuples are used internally in many places in python
+
+3. tuples are enclosed in (1, 2, 3)
+
+
+
+Sets
+----
+1. sets are collection of unique values
+
+2. sets are not subscriptable
+
+3. sets are mutable
+
+4. sets are unordered collection
+ 
+5. sets are enclosed in { }
+
+
+functions
+---------
+what is a function
+-------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
